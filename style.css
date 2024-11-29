@@ -1,0 +1,36 @@
+
+
+.topo1 {
+  display: flex;
+  align-items: center;
+  background-color: rgb(35, 154, 223);
+  border-radius: 25px;
+  justify-content: space-around;
+
+}
+
+.nounderline {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+#navigation {
+  display: flex;
+  margin-left: auto;
+}
+
+.destaques span{
+  margin: 0 60px;
+}
+
+.imagemheader {
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#marca {
+  margin:auto;
+}
+#logo {
+  margin-right: auto;
+}
