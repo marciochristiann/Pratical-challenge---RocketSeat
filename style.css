@@ -28,7 +28,6 @@ body {
 .imagemheader {
   border-radius: 20px;
   margin-top: 10px;
-  
 }
 
 #marca {
@@ -44,7 +43,7 @@ body {
 }
 
 .imagempacotes{ 
-  height: max-content; width: 350px; inset: 0px; color: transparent;
+  width: 350px; inset: 0px; color: transparent;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -139,12 +138,6 @@ button {
   font-style: oblique;
 }
 
-ul {
-  list-style-type: none;
-}
 
-li {
-  margin-bottom: 8px;
-}
 
 
