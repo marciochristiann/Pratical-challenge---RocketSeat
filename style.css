@@ -1,12 +1,14 @@
 
-
+body {
+  background-color: #F7F3EF;
+}
 .topo1 {
   display: flex;
   align-items: center;
-  background-color: rgb(35, 154, 223);
+  background-color: rgb(16, 151, 140);
   border-radius: 25px;
   justify-content: space-around;
-
+  height: 65px;
 }
 
 .nounderline {
@@ -26,6 +28,7 @@
 .imagemheader {
   border-radius: 20px;
   margin-top: 10px;
+  
 }
 
 #marca {
@@ -34,3 +37,114 @@
 #logo {
   margin-right: auto;
 }
+
+.linkpacotes{
+  text-decoration: none;
+  color: black;
+}
+
+.imagempacotes{ 
+  height: max-content; width: 350px; inset: 0px; color: transparent;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#page {
+  background-color: white;
+  display: flexbox;
+  flex-direction: row;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.container {
+  display: flex;
+  justify-content:space-between;
+  
+  background-color: #F7F3EF;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+#movenpickinfo {
+  margin-left: -350px;
+}
+
+#hideawayinfo {
+  margin-left: -460px;
+}
+
+#heritanceinfo {
+  margin-left: -600px;
+}
+
+#emeraldinfo {
+  margin-left: -660px;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+li {
+  margin-bottom: 8px;
+  margin-left: -40px;
+}
+.preçopacotes{
+  background-color: rgb(16, 151, 140);
+  width: 300px;
+  height: auto;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.preçopacotes p {
+  text-align: center;
+  margin-top: 40px;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+button a {
+  text-decoration: none;
+  color: rgb(226, 216, 216);
+  
+  
+}
+
+button {
+  background-color: rgb(16, 151, 140);
+  height: 40px;
+  border-radius: 8px;
+  margin: 20px 100px;
+  border-color: white;
+}
+#topo2 {
+  background-color: rgb(255, 255, 255);
+  margin: 50px;
+  border-radius: 20px;
+  padding: 25px 100px;
+  text-align: center;
+}
+#topo2 h1 {
+  font-size: 34px;
+  color: rgb(16, 151, 140)
+}
+
+#topo2 p{
+  font-size: 18px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-style: oblique;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+
