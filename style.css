@@ -139,5 +139,23 @@ button {
 }
 
 
+#footer {
+  background-color: rgb(16, 151, 140);
+  border-radius: 10px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer p {
+  margin-left: 900px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+#socialmedia {
+  display: flex;
+  margin-left: 925px;
+}
 
 
