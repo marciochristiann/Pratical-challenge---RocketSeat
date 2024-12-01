@@ -66,19 +66,35 @@ body {
 }
 
 #movenpickinfo {
-  margin-left: -350px;
+  display: flexbox;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 1 1 200px;
+  margin-left: 50px;
 }
 
 #hideawayinfo {
-  margin-left: -460px;
+  display: flexbox;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 1 1 200px;
+  margin-left: 50px;
 }
 
 #heritanceinfo {
-  margin-left: -600px;
+  display: flexbox;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 1 1 200px;
+  margin-left: 50px;
 }
 
 #emeraldinfo {
-  margin-left: -660px;
+  display: flexbox;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 1 1 200px;
+  margin-left: 50px;
 }
 
 ul {
@@ -157,5 +173,7 @@ button {
   display: flex;
   margin-left: 925px;
 }
+
+#
 
 
