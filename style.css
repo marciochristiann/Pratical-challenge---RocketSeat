@@ -26,9 +26,13 @@ body {
 }
 
 .imagemheader {
-  border-radius: 20px;
-  margin-top: 10px;
+  display: block; /* Remove `flexbox` que não é necessário para imagens simples */
+  max-width: 100%; /* Garante que a largura da imagem nunca ultrapasse o contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 10px auto; /* Centraliza a imagem e adiciona um espaçamento superior */
+  border-radius: 20px;  
 }
+
 
 #marca {
   margin:auto;
